@@ -9,7 +9,7 @@ this.body = Bodies.rectangle(x,y,this.width,this.height,options);
 
     this.width = width;
     this.height = height;
-    this.image = loadImage("./assets/player.png");
+    this.image = loadImage("player.png");
 
     World.add(world, this.body);
   }
